@@ -1,4 +1,5 @@
 ### Hey there! 👋
+CHAYA is a ✨ _special_ ✨ software engineer, blending innovation, problem-solving, and user-centric design to create impactful, efficient solutions, constantly evolving at the forefront of cutting-edge technology! 🚀💡🌟
 
 I'm Chaya, a tech enthusiast exploring the wonders of software engineering! 🖥️
 
