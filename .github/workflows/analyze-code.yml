@@ -57,6 +57,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Pull latest changes first to avoid conflicts
+          git pull origin main
+
           # Format and update README
           TOTAL_LINES=$(jq '.SUM.code // 0' output/cloc-output.json)
           JS_LINES=$(jq '.JavaScript.code // 0' output/cloc-output.json)
