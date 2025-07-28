@@ -26,31 +26,34 @@
 <!-- LANGUAGES BREAKDOWN START -->
 <div align="center">
 <h2>📊 My Code Statistics</h2>
-<table>
-<tr>
-<td>
 
-<table>
-<tr><th colspan="2">🚀 Languages Breakdown</th></tr>
-<tr><td align="left">🟨 JavaScript</td><td align="right"><b>407,875</b> lines</td></tr>
-<tr><td align="left">🔷 TypeScript</td><td align="right"><b>24,849</b> lines</td></tr>
-<tr><td align="left">⚙️ C/C++ Header</td><td align="right"><b>17,766</b> lines</td></tr>
-<tr><td align="left">🎨 LESS</td><td align="right"><b>6,903</b> lines</td></tr>
-<tr><td align="left">🔌 Verilog</td><td align="right"><b>4,115</b> lines</td></tr>
-<tr><td align="left">⚛️ JSX</td><td align="right"><b>2,991</b> lines</td></tr>
-<tr><td align="left">💜 C#</td><td align="right"><b>2,809</b> lines</td></tr>
-<tr><td align="left">🐍 Python</td><td align="right"><b>2,365</b> lines</td></tr>
-<tr><td align="left">⚡ C++</td><td align="right"><b>968</b> lines</td></tr>
-<tr><td align="left">🌐 HTML</td><td align="right"><b>887</b> lines</td></tr>
-<tr><td align="left">☕ Java</td><td align="right"><b>30</b> lines</td></tr>
-<tr><td align="left">📦 Other</td><td align="right"><b>105,143</b> lines</td></tr>
-<tr><td colspan="2"><hr></td></tr>
-<tr><td align="left"><b>🎯 Total Lines of Code</b></td><td align="right"><b>546,831</b></td></tr>
-</table>
-
-</td>
+<table style="border-collapse: collapse; margin: 25px 0; font-size: 0.9em; min-width: 400px; border-radius: 5px 5px 0 0; overflow: hidden;">
+<thead>
+<tr style="background-color: #009879; color: #ffffff; text-align: left;">
+<th style="padding: 12px 15px;">🚀 Language</th>
+<th style="padding: 12px 15px; text-align: right;">Lines of Code</th>
 </tr>
+</thead>
+<tbody>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20"/> JavaScript</td><td align="right"><b>407,875</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20" height="20"/> TypeScript</td><td align="right"><b>24,849</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="20" height="20"/> C/C++ Header</td><td align="right"><b>17,766</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/less/less-plain-wordmark.svg" width="20" height="20"/> LESS</td><td align="right"><b>6,903</b> lines</td></tr>
+<tr><td align="left">🔌 Verilog</td><td align="right"><b>4,115</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20" height="20"/> JSX</td><td align="right"><b>2,991</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="20" height="20"/> C#</td><td align="right"><b>2,809</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" height="20"/> Python</td><td align="right"><b>2,365</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="20" height="20"/> C++</td><td align="right"><b>968</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" height="20"/> HTML</td><td align="right"><b>887</b> lines</td></tr>
+<tr><td align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="20" height="20"/> Java</td><td align="right"><b>30</b> lines</td></tr>
+<tr><td align="left">📦 Other</td><td align="right"><b>105,143</b> lines</td></tr>
+<tr style="border-bottom: 2px solid #009879; font-weight: bold;">
+<td style="padding: 12px 15px;">🎯 <b>Total</b></td>
+<td style="padding: 12px 15px; text-align: right;"><b>546,831</b></td>
+</tr>
+</tbody>
 </table>
+
 <em>📈 Statistics automatically updated weekly</em>
 </div>
 <!-- LANGUAGES BREAKDOWN END -->
