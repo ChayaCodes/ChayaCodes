@@ -23,4 +23,24 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=chayacodes&show_icons=true&locale=en" alt="chayacodes" /></p>
 
+## 📊 My Code Statistics
+
+<!-- LANGUAGES BREAKDOWN START -->
+```
+[ LANGUAGES BREAKDOWN ]
+
+JavaScript   --> 0 lines
+TypeScript   --> 0 lines
+JSX          --> 0 lines
+Vue.js       --> 0 lines
+PHP          --> 0 lines
+C#           --> 0 lines
+Other        --> 0 lines
+
+[ TOTAL LINES OF CODE: 0 ]
+```
+<!-- LANGUAGES BREAKDOWN END -->
+
+📈 *Statistics automatically updated weekly*
+
 <img src="https://github-readme-streak-stats.herokuapp.com?user=ChayaCodes" alt="GitHub Streak" />
