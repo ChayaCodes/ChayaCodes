@@ -23,24 +23,37 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=chayacodes&show_icons=true&locale=en" alt="chayacodes" /></p>
 
-## 📊 My Code Statistics
-
 <!-- LANGUAGES BREAKDOWN START -->
+<div align="center">
+<h2>📊 My Code Statistics</h2>
+<table>
+<tr><td>
+
 ```
 [ LANGUAGES BREAKDOWN ]
 
-JavaScript   --> 407,875 lines
-TypeScript   --> 24,849 lines
-JSX          --> 2,991 lines
-Vue.js       --> 0 lines
-PHP          --> 0 lines
-C#           --> 2,809 lines
-Other        --> 108,307 lines
+JavaScript     --> 407,875 lines
+TypeScript     --> 24,849 lines
+C/C++ Header   --> 17,766 lines
+LESS           --> 6,903 lines
+Verilog        --> 4,115 lines
+JSX            --> 2,991 lines
+C#             --> 2,809 lines
+Python         --> 2,365 lines
+C++            --> 968 lines
+HTML           --> 887 lines
+Java           --> 30 lines
+Vue.js         --> 0 lines
+PHP            --> 0 lines
+Other          --> 105,143 lines
 
 [ TOTAL LINES OF CODE: 546,831 ]
 ```
-<!-- LANGUAGES BREAKDOWN END -->
 
-📈 *Statistics automatically updated weekly*
+</td></tr>
+</table>
+<em>📈 Statistics automatically updated weekly</em>
+</div>
+<!-- LANGUAGES BREAKDOWN END -->
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=ChayaCodes" alt="GitHub Streak" />

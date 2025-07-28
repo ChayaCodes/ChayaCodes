@@ -68,8 +68,15 @@ jobs:
           CSHARP_LINES=$(jq '."C#".code // 0' output/cloc-output.json)
           VUE_LINES=$(jq '."Vuejs Component".code // 0' output/cloc-output.json)
           PHP_LINES=$(jq '.PHP.code // 0' output/cloc-output.json)
+          CPP_HEADER_LINES=$(jq '."C/C++ Header".code // 0' output/cloc-output.json)
+          CPP_LINES=$(jq '."C++".code // 0' output/cloc-output.json)
+          LESS_LINES=$(jq '.LESS.code // 0' output/cloc-output.json)
+          VERILOG_LINES=$(jq '."Verilog-SystemVerilog".code // 0' output/cloc-output.json)
+          PYTHON_LINES=$(jq '."Jupyter Notebook".code // 0' output/cloc-output.json)
+          JAVA_LINES=$(jq '.Java.code // 0' output/cloc-output.json)
+          HTML_LINES=$(jq '.HTML.code // 0' output/cloc-output.json)
 
-          OTHER_LINES=$((TOTAL_LINES - JS_LINES - TS_LINES - JSX_LINES - PHP_LINES - CSHARP_LINES - VUE_LINES))
+          OTHER_LINES=$((TOTAL_LINES - JS_LINES - TS_LINES - JSX_LINES - PHP_LINES - CSHARP_LINES - VUE_LINES - CPP_HEADER_LINES - CPP_LINES - LESS_LINES - VERILOG_LINES - PYTHON_LINES - JAVA_LINES - HTML_LINES))
 
           # Function to format numbers with commas (ensuring proper locale settings)
           format_number() {
@@ -84,21 +91,45 @@ jobs:
           FORMATTED_CSHARP=$(format_number $CSHARP_LINES)
           FORMATTED_VUE=$(format_number $VUE_LINES)
           FORMATTED_PHP=$(format_number $PHP_LINES)
+          FORMATTED_CPP_HEADER=$(format_number $CPP_HEADER_LINES)
+          FORMATTED_CPP=$(format_number $CPP_LINES)
+          FORMATTED_LESS=$(format_number $LESS_LINES)
+          FORMATTED_VERILOG=$(format_number $VERILOG_LINES)
+          FORMATTED_PYTHON=$(format_number $PYTHON_LINES)
+          FORMATTED_JAVA=$(format_number $JAVA_LINES)
+          FORMATTED_HTML=$(format_number $HTML_LINES)
           FORMATTED_OTHER=$(format_number $OTHER_LINES)
 
-          CODE_BLOCK="\`\`\`
+          CODE_BLOCK="<div align=\"center\">
+          <h2>📊 My Code Statistics</h2>
+          <table>
+          <tr><td>
+
+          \`\`\`
           [ LANGUAGES BREAKDOWN ]
 
-          JavaScript   --> $FORMATTED_JS lines
-          TypeScript   --> $FORMATTED_TS lines
-          JSX          --> $FORMATTED_JSX lines
-          Vue.js       --> $FORMATTED_VUE lines
-          PHP          --> $FORMATTED_PHP lines
-          C#           --> $FORMATTED_CSHARP lines
-          Other        --> $FORMATTED_OTHER lines
+          JavaScript     --> $FORMATTED_JS lines
+          TypeScript     --> $FORMATTED_TS lines
+          C/C++ Header   --> $FORMATTED_CPP_HEADER lines
+          LESS           --> $FORMATTED_LESS lines
+          Verilog        --> $FORMATTED_VERILOG lines
+          JSX            --> $FORMATTED_JSX lines
+          C#             --> $FORMATTED_CSHARP lines
+          Python         --> $FORMATTED_PYTHON lines
+          C++            --> $FORMATTED_CPP lines
+          HTML           --> $FORMATTED_HTML lines
+          Java           --> $FORMATTED_JAVA lines
+          Vue.js         --> $FORMATTED_VUE lines
+          PHP            --> $FORMATTED_PHP lines
+          Other          --> $FORMATTED_OTHER lines
 
           [ TOTAL LINES OF CODE: $FORMATTED_TOTAL ]
-          \`\`\`"
+          \`\`\`
+
+          </td></tr>
+          </table>
+          <em>📈 Statistics automatically updated weekly</em>
+          </div>"
 
           # Update README.md by replacing the section between predefined comment markers
           echo "$CODE_BLOCK" > temp_block.txt
