@@ -27,30 +27,29 @@
 <div align="center">
 <h2>📊 My Code Statistics</h2>
 <table>
-<tr><td>
+<tr>
+<td>
 
-```
-[ LANGUAGES BREAKDOWN ]
+<table>
+<tr><th colspan="2">🚀 Languages Breakdown</th></tr>
+<tr><td align="left">🟨 JavaScript</td><td align="right"><b>407,875</b> lines</td></tr>
+<tr><td align="left">🔷 TypeScript</td><td align="right"><b>24,849</b> lines</td></tr>
+<tr><td align="left">⚙️ C/C++ Header</td><td align="right"><b>17,766</b> lines</td></tr>
+<tr><td align="left">🎨 LESS</td><td align="right"><b>6,903</b> lines</td></tr>
+<tr><td align="left">🔌 Verilog</td><td align="right"><b>4,115</b> lines</td></tr>
+<tr><td align="left">⚛️ JSX</td><td align="right"><b>2,991</b> lines</td></tr>
+<tr><td align="left">💜 C#</td><td align="right"><b>2,809</b> lines</td></tr>
+<tr><td align="left">🐍 Python</td><td align="right"><b>2,365</b> lines</td></tr>
+<tr><td align="left">⚡ C++</td><td align="right"><b>968</b> lines</td></tr>
+<tr><td align="left">🌐 HTML</td><td align="right"><b>887</b> lines</td></tr>
+<tr><td align="left">☕ Java</td><td align="right"><b>30</b> lines</td></tr>
+<tr><td align="left">📦 Other</td><td align="right"><b>105,143</b> lines</td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><td align="left"><b>🎯 Total Lines of Code</b></td><td align="right"><b>546,831</b></td></tr>
+</table>
 
-JavaScript     --> 407,875 lines
-TypeScript     --> 24,849 lines
-C/C++ Header   --> 17,766 lines
-LESS           --> 6,903 lines
-Verilog        --> 4,115 lines
-JSX            --> 2,991 lines
-C#             --> 2,809 lines
-Python         --> 2,365 lines
-C++            --> 968 lines
-HTML           --> 887 lines
-Java           --> 30 lines
-Vue.js         --> 0 lines
-PHP            --> 0 lines
-Other          --> 105,143 lines
-
-[ TOTAL LINES OF CODE: 546,831 ]
-```
-
-</td></tr>
+</td>
+</tr>
 </table>
 <em>📈 Statistics automatically updated weekly</em>
 </div>

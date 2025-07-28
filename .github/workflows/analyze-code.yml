@@ -100,33 +100,40 @@ jobs:
           FORMATTED_HTML=$(format_number $HTML_LINES)
           FORMATTED_OTHER=$(format_number $OTHER_LINES)
 
+          # Create dynamic language list (only languages with code > 0)
+          LANG_LIST=""
+          
+          # Add languages only if they have code
+          [ $JS_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">🟨 JavaScript</td><td align=\"right\"><b>$FORMATTED_JS</b> lines</td></tr>"
+          [ $TS_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">🔷 TypeScript</td><td align=\"right\"><b>$FORMATTED_TS</b> lines</td></tr>"
+          [ $CPP_HEADER_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">⚙️ C/C++ Header</td><td align=\"right\"><b>$FORMATTED_CPP_HEADER</b> lines</td></tr>"
+          [ $LESS_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">🎨 LESS</td><td align=\"right\"><b>$FORMATTED_LESS</b> lines</td></tr>"
+          [ $VERILOG_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">🔌 Verilog</td><td align=\"right\"><b>$FORMATTED_VERILOG</b> lines</td></tr>"
+          [ $JSX_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">⚛️ JSX</td><td align=\"right\"><b>$FORMATTED_JSX</b> lines</td></tr>"
+          [ $CSHARP_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">💜 C#</td><td align=\"right\"><b>$FORMATTED_CSHARP</b> lines</td></tr>"
+          [ $PYTHON_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">🐍 Python</td><td align=\"right\"><b>$FORMATTED_PYTHON</b> lines</td></tr>"
+          [ $CPP_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">⚡ C++</td><td align=\"right\"><b>$FORMATTED_CPP</b> lines</td></tr>"
+          [ $HTML_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">🌐 HTML</td><td align=\"right\"><b>$FORMATTED_HTML</b> lines</td></tr>"
+          [ $JAVA_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">☕ Java</td><td align=\"right\"><b>$FORMATTED_JAVA</b> lines</td></tr>"
+          [ $VUE_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">💚 Vue.js</td><td align=\"right\"><b>$FORMATTED_VUE</b> lines</td></tr>"
+          [ $PHP_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">🐘 PHP</td><td align=\"right\"><b>$FORMATTED_PHP</b> lines</td></tr>"
+          [ $OTHER_LINES -gt 0 ] && LANG_LIST="$LANG_LIST<tr><td align=\"left\">📦 Other</td><td align=\"right\"><b>$FORMATTED_OTHER</b> lines</td></tr>"
+
           CODE_BLOCK="<div align=\"center\">
           <h2>📊 My Code Statistics</h2>
           <table>
-          <tr><td>
-
-          \`\`\`
-          [ LANGUAGES BREAKDOWN ]
-
-          JavaScript     --> $FORMATTED_JS lines
-          TypeScript     --> $FORMATTED_TS lines
-          C/C++ Header   --> $FORMATTED_CPP_HEADER lines
-          LESS           --> $FORMATTED_LESS lines
-          Verilog        --> $FORMATTED_VERILOG lines
-          JSX            --> $FORMATTED_JSX lines
-          C#             --> $FORMATTED_CSHARP lines
-          Python         --> $FORMATTED_PYTHON lines
-          C++            --> $FORMATTED_CPP lines
-          HTML           --> $FORMATTED_HTML lines
-          Java           --> $FORMATTED_JAVA lines
-          Vue.js         --> $FORMATTED_VUE lines
-          PHP            --> $FORMATTED_PHP lines
-          Other          --> $FORMATTED_OTHER lines
-
-          [ TOTAL LINES OF CODE: $FORMATTED_TOTAL ]
-          \`\`\`
-
-          </td></tr>
+          <tr>
+          <td>
+          
+          <table>
+          <tr><th colspan=\"2\">🚀 Languages Breakdown</th></tr>
+          $LANG_LIST
+          <tr><td colspan=\"2\"><hr></td></tr>
+          <tr><td align=\"left\"><b>🎯 Total Lines of Code</b></td><td align=\"right\"><b>$FORMATTED_TOTAL</b></td></tr>
+          </table>
+          
+          </td>
+          </tr>
           </table>
           <em>📈 Statistics automatically updated weekly</em>
           </div>"
