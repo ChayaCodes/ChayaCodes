@@ -29,15 +29,15 @@
 ```
 [ LANGUAGES BREAKDOWN ]
 
-JavaScript   --> 0 lines
-TypeScript   --> 0 lines
-JSX          --> 0 lines
+JavaScript   --> 407,875 lines
+TypeScript   --> 24,849 lines
+JSX          --> 2,991 lines
 Vue.js       --> 0 lines
 PHP          --> 0 lines
-C#           --> 0 lines
-Other        --> 0 lines
+C#           --> 2,809 lines
+Other        --> 108,307 lines
 
-[ TOTAL LINES OF CODE: 0 ]
+[ TOTAL LINES OF CODE: 546,831 ]
 ```
 <!-- LANGUAGES BREAKDOWN END -->
 
