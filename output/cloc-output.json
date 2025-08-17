@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 2.50395083427429,
-  "n_files"            : 3025,
-  "n_lines"            : 707626,
-  "files_per_second"   : 1208.09081336324,
-  "lines_per_second"   : 282603.79170148},
+  "elapsed_seconds"    : 2.53510093688965,
+  "n_files"            : 3046,
+  "n_lines"            : 710068,
+  "files_per_second"   : 1201.53006757087,
+  "lines_per_second"   : 280094.567307917},
 "JavaScript" :{
   "nFiles": 2234,
   "blank": 53029,
@@ -32,10 +32,10 @@
   "comment": 72,
   "code": 6903},
 "Verilog-SystemVerilog" :{
-  "nFiles": 100,
-  "blank": 1485,
-  "comment": 1906,
-  "code": 4115},
+  "nFiles": 117,
+  "blank": 1766,
+  "comment": 2160,
+  "code": 5504},
 "JSX" :{
   "nFiles": 24,
   "blank": 250,
@@ -76,6 +76,11 @@
   "blank": 61,
   "comment": 29,
   "code": 683},
+"Bourne Shell" :{
+  "nFiles": 18,
+  "blank": 93,
+  "comment": 34,
+  "code": 462},
 "DOS Batch" :{
   "nFiles": 17,
   "blank": 45,
@@ -86,11 +91,6 @@
   "blank": 78,
   "comment": 14,
   "code": 244},
-"Bourne Shell" :{
-  "nFiles": 15,
-  "blank": 30,
-  "comment": 0,
-  "code": 210},
 "Visual Studio Solution" :{
   "nFiles": 6,
   "blank": 6,
@@ -101,6 +101,11 @@
   "blank": 51,
   "comment": 17,
   "code": 171},
+"make" :{
+  "nFiles": 3,
+  "blank": 47,
+  "comment": 24,
+  "code": 155},
 "INI" :{
   "nFiles": 7,
   "blank": 12,
@@ -121,11 +126,6 @@
   "blank": 3,
   "comment": 3,
   "code": 49},
-"make" :{
-  "nFiles": 2,
-  "blank": 17,
-  "comment": 4,
-  "code": 36},
 "Nix" :{
   "nFiles": 1,
   "blank": 0,
@@ -142,7 +142,7 @@
   "comment": 3,
   "code": 30},
 "SUM": {
-  "blank": 65456,
-  "comment": 82239,
-  "code": 559931,
-  "nFiles": 3025} }
+  "blank": 65830,
+  "comment": 82547,
+  "code": 561691,
+  "nFiles": 3046} }
