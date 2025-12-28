@@ -1,26 +1,26 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 2.56853199005127,
-  "n_files"            : 3192,
-  "n_lines"            : 724471,
-  "files_per_second"   : 1242.73320805955,
-  "lines_per_second"   : 282056.444228105},
+  "elapsed_seconds"    : 2.79160785675049,
+  "n_files"            : 3316,
+  "n_lines"            : 742867,
+  "files_per_second"   : 1187.84591896797,
+  "lines_per_second"   : 266107.217818451},
 "JavaScript" :{
-  "nFiles": 2238,
-  "blank": 53207,
+  "nFiles": 2240,
+  "blank": 53208,
   "comment": 60040,
-  "code": 408884},
+  "code": 408915},
 "YAML" :{
   "nFiles": 31,
   "blank": 56,
   "comment": 46,
   "code": 71424},
 "TypeScript" :{
-  "nFiles": 490,
-  "blank": 6691,
-  "comment": 11329,
-  "code": 48303},
+  "nFiles": 601,
+  "blank": 8320,
+  "comment": 11633,
+  "code": 63776},
 "C/C++ Header" :{
   "nFiles": 15,
   "blank": 3244,
@@ -67,10 +67,15 @@
   "comment": 60,
   "code": 887},
 "Text" :{
-  "nFiles": 40,
-  "blank": 129,
+  "nFiles": 41,
+  "blank": 133,
   "comment": 0,
-  "code": 847},
+  "code": 857},
+"SQL" :{
+  "nFiles": 9,
+  "blank": 132,
+  "comment": 77,
+  "code": 725},
 "XAML" :{
   "nFiles": 10,
   "blank": 61,
@@ -146,8 +151,13 @@
   "blank": 4,
   "comment": 3,
   "code": 30},
+"TOML" :{
+  "nFiles": 1,
+  "blank": 3,
+  "comment": 0,
+  "code": 7},
 "SUM": {
-  "blank": 67550,
-  "comment": 83196,
-  "code": 573725,
-  "nFiles": 3192} }
+  "blank": 69319,
+  "comment": 83577,
+  "code": 589971,
+  "nFiles": 3316} }
