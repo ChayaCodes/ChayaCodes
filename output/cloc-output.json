@@ -1,21 +1,21 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 2.9566011428833,
-  "n_files"            : 3418,
-  "n_lines"            : 762026,
-  "files_per_second"   : 1156.05718689087,
-  "lines_per_second"   : 257737.166149123},
+  "elapsed_seconds"    : 2.87499403953552,
+  "n_files"            : 3422,
+  "n_lines"            : 762765,
+  "files_per_second"   : 1190.26333722516,
+  "lines_per_second"   : 265310.115259658},
 "JavaScript" :{
   "nFiles": 2240,
   "blank": 53208,
   "comment": 60040,
   "code": 408915},
 "TypeScript" :{
-  "nFiles": 672,
-  "blank": 9963,
-  "comment": 12347,
-  "code": 78572},
+  "nFiles": 674,
+  "blank": 10039,
+  "comment": 12381,
+  "code": 78993},
 "YAML" :{
   "nFiles": 31,
   "blank": 56,
@@ -46,16 +46,16 @@
   "blank": 650,
   "comment": 234,
   "code": 2809},
+"SQL" :{
+  "nFiles": 41,
+  "blank": 382,
+  "comment": 321,
+  "code": 2429},
 "Jupyter Notebook" :{
   "nFiles": 5,
   "blank": 0,
   "comment": 4663,
   "code": 2365},
-"SQL" :{
-  "nFiles": 39,
-  "blank": 356,
-  "comment": 295,
-  "code": 2276},
 "XML" :{
   "nFiles": 30,
   "blank": 70,
@@ -153,11 +153,11 @@
   "code": 30},
 "TOML" :{
   "nFiles": 1,
-  "blank": 7,
+  "blank": 8,
   "comment": 0,
-  "code": 15},
+  "code": 17},
 "SUM": {
-  "blank": 71190,
-  "comment": 84509,
-  "code": 606327,
-  "nFiles": 3418} }
+  "blank": 71293,
+  "comment": 84569,
+  "code": 606903,
+  "nFiles": 3422} }
