@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 2.91657590866089,
-  "n_files"            : 3432,
-  "n_lines"            : 764347,
-  "files_per_second"   : 1176.72233039042,
-  "lines_per_second"   : 262069.983411109},
+  "elapsed_seconds"    : 2.21731781959534,
+  "n_files"            : 3443,
+  "n_lines"            : 765328,
+  "files_per_second"   : 1552.77694950756,
+  "lines_per_second"   : 345159.360212815},
 "JavaScript" :{
   "nFiles": 2240,
   "blank": 53208,
@@ -22,10 +22,10 @@
   "comment": 46,
   "code": 71424},
 "C/C++ Header" :{
-  "nFiles": 15,
-  "blank": 3244,
-  "comment": 4150,
-  "code": 17766},
+  "nFiles": 20,
+  "blank": 3272,
+  "comment": 4196,
+  "code": 17841},
 "LESS" :{
   "nFiles": 18,
   "blank": 552,
@@ -56,16 +56,16 @@
   "blank": 0,
   "comment": 4663,
   "code": 2365},
+"C++" :{
+  "nFiles": 21,
+  "blank": 286,
+  "comment": 111,
+  "code": 1645},
 "XML" :{
   "nFiles": 30,
   "blank": 70,
   "comment": 105,
   "code": 1134},
-"C++" :{
-  "nFiles": 16,
-  "blank": 203,
-  "comment": 54,
-  "code": 968},
 "HTML" :{
   "nFiles": 1,
   "blank": 166,
@@ -111,16 +111,16 @@
   "blank": 47,
   "comment": 24,
   "code": 155},
+"INI" :{
+  "nFiles": 8,
+  "blank": 14,
+  "comment": 0,
+  "code": 143},
 "Dockerfile" :{
   "nFiles": 7,
   "blank": 71,
   "comment": 16,
   "code": 133},
-"INI" :{
-  "nFiles": 7,
-  "blank": 12,
-  "comment": 0,
-  "code": 130},
 "Markdown" :{
   "nFiles": 2,
   "blank": 42,
@@ -157,7 +157,7 @@
   "comment": 0,
   "code": 17},
 "SUM": {
-  "blank": 71454,
-  "comment": 84640,
-  "code": 608253,
-  "nFiles": 3432} }
+  "blank": 71567,
+  "comment": 84743,
+  "code": 609018,
+  "nFiles": 3443} }
