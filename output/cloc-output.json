@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 2.9540901184082,
-  "n_files"            : 3443,
-  "n_lines"            : 765328,
-  "files_per_second"   : 1165.5026969371,
-  "lines_per_second"   : 259074.019181376},
+  "elapsed_seconds"    : 3.31999802589417,
+  "n_files"            : 3445,
+  "n_lines"            : 765392,
+  "files_per_second"   : 1037.65121940763,
+  "lines_per_second"   : 230539.896117516},
 "JavaScript" :{
   "nFiles": 2240,
   "blank": 53208,
@@ -17,10 +17,10 @@
   "comment": 12419,
   "code": 80269},
 "YAML" :{
-  "nFiles": 31,
-  "blank": 56,
-  "comment": 46,
-  "code": 71424},
+  "nFiles": 32,
+  "blank": 67,
+  "comment": 51,
+  "code": 71467},
 "C/C++ Header" :{
   "nFiles": 20,
   "blank": 3272,
@@ -72,10 +72,10 @@
   "comment": 60,
   "code": 887},
 "Text" :{
-  "nFiles": 42,
+  "nFiles": 43,
   "blank": 133,
   "comment": 0,
-  "code": 858},
+  "code": 863},
 "XAML" :{
   "nFiles": 10,
   "blank": 61,
@@ -157,7 +157,7 @@
   "comment": 0,
   "code": 17},
 "SUM": {
-  "blank": 71567,
-  "comment": 84743,
-  "code": 609018,
-  "nFiles": 3443} }
+  "blank": 71578,
+  "comment": 84748,
+  "code": 609066,
+  "nFiles": 3445} }
