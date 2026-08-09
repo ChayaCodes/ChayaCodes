@@ -1,26 +1,26 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 2.74369597434998,
-  "n_files"            : 3605,
-  "n_lines"            : 784172,
-  "files_per_second"   : 1313.92108808779,
-  "lines_per_second"   : 285808.634532032},
+  "elapsed_seconds"    : 3.11634397506714,
+  "n_files"            : 3619,
+  "n_lines"            : 787029,
+  "files_per_second"   : 1161.29670824352,
+  "lines_per_second"   : 252548.822048132},
 "JavaScript" :{
   "nFiles": 2249,
   "blank": 53234,
   "comment": 60047,
   "code": 409134},
 "TypeScript" :{
-  "nFiles": 816,
-  "blank": 11027,
-  "comment": 12821,
-  "code": 89549},
+  "nFiles": 829,
+  "blank": 11195,
+  "comment": 12925,
+  "code": 91834},
 "YAML" :{
   "nFiles": 43,
-  "blank": 1339,
+  "blank": 1385,
   "comment": 177,
-  "code": 77843},
+  "code": 77985},
 "C/C++ Header" :{
   "nFiles": 20,
   "blank": 3272,
@@ -41,16 +41,16 @@
   "blank": 268,
   "comment": 27,
   "code": 3141},
+"SQL" :{
+  "nFiles": 50,
+  "blank": 401,
+  "comment": 381,
+  "code": 2814},
 "C#" :{
   "nFiles": 53,
   "blank": 650,
   "comment": 234,
   "code": 2809},
-"SQL" :{
-  "nFiles": 49,
-  "blank": 401,
-  "comment": 374,
-  "code": 2709},
 "Jupyter Notebook" :{
   "nFiles": 5,
   "blank": 0,
@@ -157,7 +157,7 @@
   "comment": 0,
   "code": 17},
 "SUM": {
-  "blank": 73722,
-  "comment": 85303,
-  "code": 625147,
-  "nFiles": 3605} }
+  "blank": 73936,
+  "comment": 85414,
+  "code": 627679,
+  "nFiles": 3619} }
