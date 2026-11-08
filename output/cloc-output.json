@@ -1,11 +1,11 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "2.06",
-  "elapsed_seconds"    : 3.50048804283142,
-  "n_files"            : 3640,
-  "n_lines"            : 787740,
-  "files_per_second"   : 1039.85500177733,
-  "lines_per_second"   : 225037.192060461},
+  "elapsed_seconds"    : 3.52472615242004,
+  "n_files"            : 3643,
+  "n_lines"            : 787846,
+  "files_per_second"   : 1033.55547139421,
+  "lines_per_second"   : 223519.775985738},
 "JavaScript" :{
   "nFiles": 2249,
   "blank": 53234,
@@ -66,16 +66,16 @@
   "blank": 70,
   "comment": 105,
   "code": 1134},
+"Text" :{
+  "nFiles": 45,
+  "blank": 140,
+  "comment": 0,
+  "code": 924},
 "HTML" :{
   "nFiles": 1,
   "blank": 166,
   "comment": 60,
   "code": 887},
-"Text" :{
-  "nFiles": 43,
-  "blank": 133,
-  "comment": 0,
-  "code": 863},
 "XAML" :{
   "nFiles": 10,
   "blank": 61,
@@ -87,10 +87,10 @@
   "comment": 38,
   "code": 523},
 "DOS Batch" :{
-  "nFiles": 17,
-  "blank": 45,
-  "comment": 1,
-  "code": 263},
+  "nFiles": 18,
+  "blank": 50,
+  "comment": 4,
+  "code": 293},
 "Fortran 77" :{
   "nFiles": 11,
   "blank": 78,
@@ -162,7 +162,7 @@
   "comment": 0,
   "code": 17},
 "SUM": {
-  "blank": 73953,
-  "comment": 85584,
-  "code": 628203,
-  "nFiles": 3640} }
+  "blank": 73965,
+  "comment": 85587,
+  "code": 628294,
+  "nFiles": 3643} }
